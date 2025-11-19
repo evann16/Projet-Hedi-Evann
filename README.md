@@ -1,4 +1,4 @@
-# projet_hedi_evann
+# projet_evann_hedi
 
 A new Flutter project.
 
