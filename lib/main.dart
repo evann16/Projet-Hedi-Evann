@@ -8,6 +8,11 @@ import 'UI/welcome_page.dart';
 import 'UI/article_provider.dart';
 
 void main() {
+
+  // SharedPreferences prefs = await SharedPreferences.getInstance();
+  // await prefs.setBool("skipWelcome", false);
+  WidgetsFlutterBinding.ensureInitialized();
+  
   runApp(
     ChangeNotifierProvider(
       create: (_) => ArticleProvider(),
